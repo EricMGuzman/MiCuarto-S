@@ -1,0 +1,91 @@
+﻿
+.colorFondo {
+    background-color: #FFE4E1;
+}
+a {
+    color:white;
+}
+
+.collapse.navbar-collapse.navbar-ex1-collapse{
+   background-color: #2E7324;
+   /*border-bottom: 3px solid #EAA400 ;*/
+}
+
+
+@font-face{
+  font-family:'GrandHotel';
+  src: url('GrandHotel-Regular.otf');
+}
+@font-face{
+  font-family:'Quicksand-Regular';
+  src: url('Quicksand-Regular.otf');
+}
+.GrandHotel{
+  font-family:'GrandHotel';
+}
+.Quicksand-Regular{
+  font-family:'Quicksand-Regular';
+}
+
+.dineroStatus{
+    margin-top: -5px;
+    font-size:5.4em;
+    text-shadow: 1px 2px 1px black;
+}
+
+.balanceNuevaTransaccion{
+    font-size:5.4em;
+}
+
+.tituloPage{
+    margin-left:15px;
+    font-family:"GrandHotel";
+    color:whitesmoke;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 38px;
+    line-height: 30px;
+    text-shadow: 1px 3px 1px black;
+}
+.tituloPage:hover,
+.tituloPage:focus {
+    color:white;
+    text-decoration: none;
+}
+
+.itemMenu {
+    font-size:17px;
+}
+
+.dateIcon{
+    height:25px;
+    width:25px;
+}
+
+.logoIcon{
+    height:36px;
+    width:36px;
+    margin-top: -15px;
+}
+
+.register-icon{
+    height:124px;
+    width:124px;
+    margin: 15px;
+}
+
+.finanzas{
+    font-size:0.5 em;
+}
+
+.tipoTransaccion{
+    height:150px;
+    width:150px;
+}
+
+.comentarioTransaccion{
+    margin-top:40px;
+    float:left;
+}
+

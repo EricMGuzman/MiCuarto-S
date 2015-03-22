@@ -1,0 +1,55 @@
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\MiCuarto S.dll.config
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\MiCuarto S.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\MiCuarto S.pdb
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Antlr3.Runtime.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\EntityFramework.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\EntityFramework.SqlServer.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Google.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Web.Infrastructure.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Newtonsoft.Json.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Owin.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Helpers.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Mvc.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Optimization.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Razor.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.WebPages.Deployment.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.WebPages.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.WebPages.Razor.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\WebGrease.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Helpers.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Mvc.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Optimization.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.Razor.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.WebPages.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.WebPages.Deployment.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\System.Web.WebPages.Razor.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Newtonsoft.Json.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Antlr3.Runtime.pdb
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\EntityFramework.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\EntityFramework.SqlServer.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Google.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\obj\Debug\MiCuarto S.csprojResolveAssemblyReference.cache
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\obj\Debug\MiCuarto S.dll
+c:\users\inspiron\documents\visual studio 2013\Projects\MiCuarto S\MiCuarto S\obj\Debug\MiCuarto S.pdb
