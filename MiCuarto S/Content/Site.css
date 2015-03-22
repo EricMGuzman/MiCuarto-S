@@ -20,11 +20,32 @@ a {
   font-family:'Quicksand-Regular';
   src: url('Quicksand-Regular.otf');
 }
+@font-face{
+    font-family:'Rosario-Regular';
+    src: url('Rosario-Regular.otf');
+}
+@font-face{
+    font-family:'Oswald-Regular';
+    src: url('Oswald-Regular.ttf');
+}
+@font-face{
+    font-family:'Oswald-Light';
+    src:url('Oswald-Light.ttf');
+}
 .GrandHotel{
   font-family:'GrandHotel';
 }
 .Quicksand-Regular{
   font-family:'Quicksand-Regular';
+}
+.Rosario-Regular{
+    font-family:'Rosario-Regular';
+}
+.Oswald-Regular{
+    font-family:'Oswald-Regular';
+}
+.Oswald-Light{
+    font-family:'Oswald-Light';
 }
 
 .dineroStatus{
@@ -87,5 +108,9 @@ a {
 .comentarioTransaccion{
     margin-top:40px;
     float:left;
+}
+
+.status-user{
+    font-size: 1.1em;
 }
 

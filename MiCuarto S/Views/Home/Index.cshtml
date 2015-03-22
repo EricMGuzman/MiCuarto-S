@@ -2,6 +2,7 @@
     ViewBag.Title = "Home Page";
 }
 
+<!--
 <div class="jumbotron">
     <h1>ASP.NET</h1>
     <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
@@ -29,3 +30,140 @@
         <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
     </div>
 </div>
+-->
+
+<fieldset class=" animated fadeIn ">
+    <legend class="Oswald-Regular"> Balance Principal</legend>
+
+
+    <div class="container">
+        <div class="col-lg-6 col-md-12">
+            <div class="panel panel-green">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-usd fa-5x"></i>
+                        </div>
+                        <div class="col-xs-5">
+                            <div class="text-center ">
+                                <h1 class="dineroStatus Oswald-Regular"> 1,200 </h1>
+
+                            </div>
+                        </div>
+                        <div class="col-xs-3 text-right">
+
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="panel-footer">
+                        <span class="pull-left Quicksand-Regular">Ver Historial</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6">
+            <div class="panel panel-red">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-exclamation fa-5x"></i>
+                        </div>
+                        <div class="col-xs-5">
+                            <h1 class="dineroStatus Oswald-Regular"> 5,000 </h1>
+                        </div>
+                        <div class="col-xs-3 text-right">
+                        </div>
+                    </div>
+                </div>
+                <a href="#">
+                    <div class="panel-footer">
+                        <span class="pull-left Quicksand-Regular">Ver Historial</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</fieldset>
+
+
+<fieldset class="animated fadeIn Rosario-Regular">
+    <legend class="Oswald-Regular">Transacciones Recientes</legend>
+
+    <div class="container">
+        <!--div class="row text-center">
+            <label class="text-center">Transacciones Recientes</label>
+        </!--div>-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="container">
+                                    <img class="tipoTransaccion" src="@Url.Content("~/Content/Icons/suit.ico")" alt="Gasto en Ropa" />
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="comentarioTransaccion Quicksand-Regular">
+                                    <p>
+                                        Compra de un traje para la boda de Jaime.
+                                        Lo Compré en Mango, Santo Domingo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 text-right">
+                                <h1 class="balanceNuevaTransaccion Oswald-Regular"> 5,000.00 </h1>
+                                <h6 class="Oswald-Regular"><img class="dateIcon" src="@Url.Content("~/Content/Icons/calendario.ico")" alt="Fecha de la transacción" />3 Marzo 2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="panel-footer">
+                            <span class="pull-left">Ver Detalles</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <div class="container">
+                                    <img class="tipoTransaccion" src="@Url.Content("~/Content/Icons/paperPlane.ico")" alt="Gasto en Ropa" />
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
+                                <div class="comentarioTransaccion Quicksand-Regular">
+                                    <p>
+                                        Compré un juego de mesa que se llama Risk, en la librería Cuesta del Nacional 27 de Febrero.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 text-right">
+                                <h1 class="balanceNuevaTransaccion Oswald-Regular"> 3,700.00 </h1>
+                                <h6 class="Oswald-Regular"><img class="dateIcon" src="@Url.Content("~/Content/Icons/calendario.ico")" alt="Fecha de la transacción" />2 Marzo 2015</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <div class="panel-footer">
+                            <span class="pull-left">Ver Detalles</span>
+                            <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                            <div class="clearfix"></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</fieldset>
