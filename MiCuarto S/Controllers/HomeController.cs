@@ -8,6 +8,7 @@ namespace MiCuarto_S.Controllers
 {
     public class HomeController : Controller
     {
+        [Authorize]
         public ActionResult Index()
         {
             return View();
@@ -24,6 +25,27 @@ namespace MiCuarto_S.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        [Authorize]
+        public ActionResult Transacciones()
+        {
+            ViewBag.Message = "Pagina de transacciones.";
+            return View();
+        }
+
+        [Authorize]
+        public ActionResult Presupuesto()
+        {
+            ViewBag.Message = "Pagina de Presupuesto.";
+            return View();
+        }
+
+        [Authorize]
+        public ActionResult Opciones()
+        {
+            ViewBag.Message = "Pagina de Opciones.";
             return View();
         }
     }

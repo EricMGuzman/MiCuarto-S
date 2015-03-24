@@ -97,7 +97,7 @@ a {
 }
 
 .finanzas{
-    font-size:0.5 em;
+    font-size:0.5em;
 }
 
 .tipoTransaccion{
@@ -116,5 +116,27 @@ a {
 
 .link-detalles-entrada{
     color:"";
+}
+
+.loged-user{
+    font-weight:500;
+    font-size:1.2em;
+}
+
+.user-loged-status{
+    margin-right:15px;
+}
+
+.logout-btn{
+    padding-right:20px;
+}
+
+.margin-15-rigt{
+    margin-right:15px;
+    
+}
+
+.panel-login-container{
+   
 }
 

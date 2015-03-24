@@ -44,7 +44,7 @@
 
 
     <div id="wrapper" class="">
-
+        
         <!-- Navigation -->
         <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -64,8 +64,9 @@
 
             </div>
             <!-- Top Menu Items -->
-            <ul class="nav navbar-right top-nav">
-               <!-- <li class="dropdown">
+            @Html.Partial("_LoginPartial")
+           <!-- <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown">
                         <li class="message-preview">
@@ -124,7 +125,7 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
                     <ul class="dropdown-menu alert-dropdown"></ul>
-                </li>-->
+                </li>
                 <li class="dropdown Oswald-Light status-user" >
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Emily Rubens <b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -143,22 +144,22 @@
                         </li>
                     </ul>
                 </li>
-            </ul>
+            </ul>-->
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li class="active">
-                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Index")"><i class="fa fa-users"></i> &nbsp;&nbsp; Mi 1/4 Social</a>
+                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Index", "Home")"><i class="fa fa-users"></i> &nbsp;&nbsp; Mi 1/4 Social</a>
                     </li>
-                    <li>
-                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Transacciones")"><i class="fa fa-plus"></i>&nbsp;&nbsp;&nbsp; Transacciones</a>
+                    <li class="">
+                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Transacciones", "Home")"><i class="fa fa-plus"></i>&nbsp;&nbsp;&nbsp; Transacciones</a>
                         @* @Html.ActionLink("Transacciones", "Transacciones", "Home"); *@
                     </li>
-                    <li>
-                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Presupuesto")"><i class="fa fa-money"></i>&nbsp;&nbsp; Presupuesto</a>
+                    <li class="">
+                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Presupuesto", "Home")"><i class="fa fa-money"></i>&nbsp;&nbsp; Presupuesto</a>
                     </li>
-                    <li>
-                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Opciones")"><i class="fa fa-bars"></i>&nbsp;&nbsp;&nbsp; Opciones</a>
+                    <li class="">
+                        <a class="itemMenu Oswald-Regular" href="@Url.Action("/Opciones", "Home")"><i class="fa fa-bars"></i>&nbsp;&nbsp;&nbsp; Opciones</a>
                     </li>
 
                 </ul>
@@ -198,10 +199,13 @@
         <!-- /#page-wrapper -->
     </div>
 
+   
 
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+
 </body>
 </html>
