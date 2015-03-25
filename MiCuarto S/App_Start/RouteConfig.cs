@@ -16,8 +16,33 @@ namespace MiCuarto_S
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                "Transacciones",
+                "{controller}/{action}/{id}",
+                new { controller = "Transaction", action = "Index", id = UrlParameter.Optional}
+             );
+
+            routes.MapRoute(
+                "Presupuesto",
+                "{controller}/{action}/{id}",
+                new { controller = "Presupuesto", action = "Index", id = UrlParameter.Optional }
+             );
+
+            routes.MapRoute(
+                "Opciones",
+                "{controller}/{action}/{id}",
+                new { controller = "Opciones", action = "Index", id = UrlParameter.Optional }
+             );
+
+
+            /*routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );*/
         }
     }
 }

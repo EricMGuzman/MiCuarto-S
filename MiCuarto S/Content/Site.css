@@ -7,7 +7,7 @@ a {
 }
 
 .collapse.navbar-collapse.navbar-ex1-collapse{
-   background-color: #2E7324;
+   background-color: #3C7539;
    /*border-bottom: 3px solid #EAA400 ;*/
 }
 
@@ -93,7 +93,7 @@ a {
 .register-icon{
     height:124px;
     width:124px;
-    margin: 15px;
+    margin-left: 5px;
 }
 
 .finanzas{
@@ -137,6 +137,27 @@ a {
 }
 
 .panel-login-container{
-   
+   box-shadow:2px 2px 150px 1px black;
+   margin-top:10%;
+  margin-left:25%;
 }
 
+.btn-entrar{
+    color: green;
+}
+
+.centered {
+
+  
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.blue-color{
+    color: #428bca;
+}
+
+.texto-actionlink, .texto-actionlink:hover{
+    text-decoration:none;
+}

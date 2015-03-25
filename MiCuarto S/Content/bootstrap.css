@@ -3019,7 +3019,7 @@ fieldset[disabled] .btn {
   opacity: .65;
 }
 .btn-default {
-  color: #333;
+  color: #5cb85c;
   background-color: #fff;
   border-color: #ccc;
 }
@@ -3029,7 +3029,7 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #fff;
+  color: #5cb85c;
   background-color: #e6e6e6;
   border-color: #adadad;
 }
@@ -5301,7 +5301,10 @@ a.list-group-item-danger.active:focus {
 }
 
 
-
+.panel-heading-login{
+   margin-left:-15px;
+  margin-right: -15px;
+}
 
 .panel-heading {
   padding: 10px 15px;
@@ -6575,11 +6578,14 @@ button.close {
 .panel-registro{
     color: white;
     background-color:#F2D852; 
-    padding-top:30px;
+    padding-top:55px;
     padding-bottom:30px;
 
 }
 
+
+
 .register-message{
     text-shadow: 1px 1px 1px gray;
+   
 }

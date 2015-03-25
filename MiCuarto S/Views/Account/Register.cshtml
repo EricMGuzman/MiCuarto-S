@@ -1,41 +1,95 @@
 ﻿@model MiCuarto_S.Models.RegisterViewModel
+
+
+
 @{
-    ViewBag.Title = "Register";
+    Layout = null;
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <title>@ViewBag.Title - Mi 1/4</title>
+    <link href="~/Content/logo/Wallet2.png" rel="shortcut icon" type="image/x-icon" />
 
-<h2>@ViewBag.Title.</h2>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
 
-@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-{
-    @Html.AntiForgeryToken()
-    <h4>Create a new account.</h4>
-    <hr />
-    @Html.ValidationSummary()
-    <div class="form-group">
-        @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
-        <div class="col-md-10">
-            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="col-md-offset-2 col-md-10">
-            <input type="submit" class="btn btn-default" value="Register" />
-        </div>
-    </div>
-}
+</head>
+<body>
 
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
+
+
+
+
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="panel panel-yellow col-sm-8 col-md-7 col-md-offset-2 animated zoomIn">
+                <div class="panel-heading panel-heading-login text-center ">
+                    <h2 class="GrandHotel"><img class="logoIcon" src="@Url.Content("~/Content/logo/Wallet2.png")" alt="Fecha de la transacción" /> Mi 1/4</h2>
+                </div>
+                <div class="panel-body">
+                    <section id="loginForm" class="">
+                        <div class="form-group Oswald-Light">
+
+
+
+                            <h2>Reg&iacute;stro</h2>
+
+                            @using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <h4>Crea una cuenta en Mi 1/4!</h4>
+                                <hr />
+                                @Html.ValidationSummary()
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.UserName, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(m => m.ConfirmPassword, new { @class = "col-md-2 control-label" })
+                                    <div class="col-md-10">
+                                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-offset-2 col-md-10">
+                                        <input type="submit" class="btn btn-warning" value="Register" />
+                                        <button type="button" class="btn btn-default" value="Register">
+                                            @Html.ActionLink("Volver", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink", @class = "texto-actionlink" })
+                                        </button>
+                                    </div>
+                                </div>
+                            }
+                            @Html.ActionLink("Regístrate", "Register") Si no tienes una cuenta.
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+    }
+
+</body>
+</html>

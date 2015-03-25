@@ -53,7 +53,7 @@ namespace MiCuarto_S.Controllers
                 }
                 else
                 {
-                    ModelState.AddModelError("", "Invalid username or password.");
+                    ModelState.AddModelError("", "Usuario o contraseña incorrecta.");
                 }
             }
 
@@ -119,10 +119,10 @@ namespace MiCuarto_S.Controllers
         public ActionResult Manage(ManageMessageId? message)
         {
             ViewBag.StatusMessage =
-                message == ManageMessageId.ChangePasswordSuccess ? "Your password has been changed."
-                : message == ManageMessageId.SetPasswordSuccess ? "Your password has been set."
-                : message == ManageMessageId.RemoveLoginSuccess ? "The external login was removed."
-                : message == ManageMessageId.Error ? "An error has occurred."
+                message == ManageMessageId.ChangePasswordSuccess ? "Su password a sido cambiado."
+                : message == ManageMessageId.SetPasswordSuccess ? "Ha declarado su contraseña."
+                : message == ManageMessageId.RemoveLoginSuccess ? "El login externo fue removido."
+                : message == ManageMessageId.Error ? "A ocurrido un error :( ."
                 : "";
             ViewBag.HasLocalPassword = HasPassword();
             ViewBag.ReturnUrl = Url.Action("Manage");
